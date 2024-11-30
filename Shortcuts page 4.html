@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Shortcuts</title>
+   
+
+    
+    
+  
+    
+
+    <style>
+        /* Global Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and Background Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background: linear-gradient(135deg, #85D3FF, #B3E0FF); /* Soft blue gradient */
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 40px;
+            background-color: #f0f9ff; /* Light background for better contrast */
+        }
+
+        /* Header Styles */
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #4A90E2; /* Soft blue */
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: #34495E; /* Darker gray-blue for softer headings */
+            text-align: center;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Container for Links */
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 20px;
+            width: 100%;
+            max-width: 1200px;
+            margin-top: 20px;
+        }
+
+        /* Link Styling */
+        a {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.05); /* Subtle background */
+            border-radius: 8px;
+            text-decoration: none;
+            color: #34495E; /* Grayish text */
+            font-size: 1.2em;
+            transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin: 0;
+            cursor: pointer;
+        }
+
+        a:hover {
+            transform: translateY(-4px);
+            background-color: rgba(0, 0, 0, 0.1); /* Softer hover background */
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Slight shadow for depth */
+        }
+
+        a:active {
+            transform: translateY(1px);
+            background-color: rgba(0, 0, 0, 0.12); /* Slight active effect */
+        }
+
+        /* Icon Styling */
+        img {
+            width: 28px;
+            height: 28px;
+            margin-right: 15px;
+            transition: transform 0.2s ease;
+        }
+
+        a:hover img {
+            transform: scale(1.1);
+        }
+
+        /* Section Styling */
+        div {
+            background: rgba(255, 255, 255, 0.85); /* Soft white background */
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+            width: 100%;
+            max-width: 1200px;
+            border: 1px solid #E1E8ED; /* Subtle border for separation */
+        }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .container {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.6em;
+            }
+
+            h2 {
+                font-size: 1.3em;
+            }
+
+            .container {
+                grid-template-columns: 1fr;
+            }
+
+            img {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    </style>
+
+
+    
+    
+</head>
+<body>
+    <h1>My 100 Shortcuts</h1>
+
+    <!-- Trading Station -->
+    <h2>Trading Station</h2>
+    <div>
+        
+        <a href="https://in.tradingview.com/chart/g4zQtgXr/?symbol=NSE%3ABANKNIFTY" target="_blank">
+            <img src="https://www.tradingview.com/favicon.ico" alt="TradingView Icon">
+            Bank Nifty
+        </a>
+
+        <a href="https://in.tradingview.com/chart/g4zQtgXr/?symbol=NSE%3ANIFTY" target="_blank">
+            <img src="https://www.tradingview.com/favicon.ico" alt="TradingView Icon">
+            Nifty
+        </a>
+
+        <a href="https://in.tradingview.com/chart/g4zQtgXr/?symbol=NSE%3AHDFCBANK" target="_blank">
+            <img src="https://www.tradingview.com/favicon.ico" alt="TradingView Icon">
+          HDFC Bank
+        </a>
+
+        <br>
+
+        <a href="https://in.tradingview.com/chart/g4zQtgXr/?symbol=FXOPEN%3AXAUUSD" target="_blank">
+            <img src="https://www.tradingview.com/favicon.ico" alt="TradingView Icon">
+            XAU/USD
+        </a>
+        
+        <a href="https://in.tradingview.com/chart/g4zQtgXr/?symbol=BINANCE%3ABTCUSDT.P" target="_blank">
+            <img src="https://www.tradingview.com/favicon.ico" alt="TradingView Icon">
+            BTC/USDT
+        </a>
+        
+        <br>
+
+        <a href="https://ntrade.hdfcsec.com/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=hdfcsec.com" alt="HDFC Securities Icon">
+            HDFC Securities
+        </a>
+    </div>
+
+
+    <!-- Development Tools -->
+    <h2>Development Tools</h2>
+    <div>
+        <a href="https://github.com/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=github.com" alt="GitHub Icon">
+            GitHub
+        </a>
+        <a href="https://replit.com/~" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=replit.com" alt="Replit Icon">
+            Replit
+        </a>
+        <br>
+        <a href="https://gitlab.com/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=gitlab.com" alt="GitLab Icon">
+            GitLab
+        </a>
+        <a href="https://bitbucket.org/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=bitbucket.org" alt="Bitbucket Icon">
+            Bitbucket
+        </a>
+       
+        <a href="https://glitch.com/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=glitch.com" alt="Glitch Icon">
+            Glitch
+        </a>
+        <a href="https://codepen.io/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=codepen.io" alt="CodePen Icon">
+            CodePen
+        </a>
+
+        <a href="https://jsfiddle.net/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=jsfiddle.net" alt="JSFiddle Icon">
+            JSFiddle
+        </a>
+
+        <a href="https://codesandbox.io/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=codesandbox.io" alt="CodeSandbox Icon">
+            CodeSandbox
+        </a>
+
+        <a href="https://stackblitz.com/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=stackblitz.com" alt="StackBlitz Icon">
+            StackBlitz
+        </a>
+
+        <a href="https://exercism.org/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=exercism.org" alt="Exercism Icon">
+            Exercism
+        </a>
+
+        <a href="https://leetcode.com/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=leetcode.com" alt="LeetCode Icon">
+            LeetCode
+        </a>
+
+        <a href="https://www.hackerrank.com/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=hackerrank.com" alt="HackerRank Icon">
+            HackerRank
+        </a>
+
+        <a href="https://www.codewars.com/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=codewars.com" alt="Codewars Icon">
+            Codewars
+        </a>
+
+        <a href="https://www.topcoder.com/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=topcoder.com" alt="TopCoder Icon">
+            TopCoder
+        </a>
+
+        <a href="https://www.coderbyte.com/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=coderbyte.com" alt="Coderbyte Icon">
+            Coderbyte
+        </a>
+
+        <a href="https://www.interviewbit.com/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=interviewbit.com" alt="InterviewBit Icon">
+            InterviewBit
+        </a>
+
+        <a href="https://www.edx.org/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=edx.org" alt="EdX Icon">
+            EdX
+        </a>
+
+        <a href="https://www.coursera.org/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=coursera.org" alt="Coursera Icon">
+            Coursera
+        </a>
+
+    </div>
+
+
+     <!-- Coding Courses -->
+     <h2>Coding Courses</h2>
+     <div>
+    
+
+        <a href="https://roadmap.sh/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=roadmap.sh" alt="Roadmap.sh Icon">
+            Roadmap.sh --- Dovloper
+        </a>
+
+        <br>
+    
+
+         <a href="https://overapi.com/" target="_blank">
+             <img src="https://www.google.com/s2/favicons?sz=64&domain=overapi.com" alt="OverAPI Icon">
+             OverAPI --- All Coding Cheat Sheets
+         </a>
+
+        <a href="https://goalkicker.com/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=goalkicker.com" alt="Goalkicker Icon">
+            Goalkicker --- All Coding Cheat Sheets
+        </a>
+
+        <a href="https://coddy.tech/courses" target="_blank">
+        <img src="https://www.google.com/s2/favicons?sz=64&domain=coddy.tech" alt="Coddy Tech Icon">
+        Coddy Tech Courses --- All Coding Courses
+        </a>
+
+        <a href="https://www.classcentral.com/report/free-developer-it-certifications/?ref=dailydev#google" target="_blank">
+        <img src="https://www.google.com/s2/favicons?sz=64&domain=classcentral.com" alt="Class Central Icon">
+        Free Developer & IT Certifications --- 900+ Free Developer and IT Certifications
+        </a>
+
+        <a href="https://www.freecodecamp.org/learn" target="_blank">
+        <img src="https://www.google.com/s2/favicons?sz=64&domain=freecodecamp.org" alt="freeCodeCamp Icon">
+        freeCodeCamp
+        </a>
+        
+       <a href="https://www.udemy.com/" target="_blank">
+        <img src="https://www.google.com/s2/favicons?sz=64&domain=udemy.com" alt="Udemy Icon">
+        Udemy --- Online Courses
+    </a>
+
+    <a href="https://www.codewithharry.com/" target="_blank">
+        <img src="https://www.google.com/s2/favicons?sz=64&domain=codewithharry.com" alt="CodeWithHarry Icon">
+        CodeWithHarry --- Coding Tutorials
+    </a>
+
+       <br>
+
+       <a href="https://uiverse.io/" target="_blank">
+        <img src="https://www.google.com/s2/favicons?sz=64&domain=uiverse.io" alt="uiverse.io Icon">
+        uiverse.io --- Free UI Kits & Design Resources
+    </a>
+     
+    <br>
+
+        <a href="https://designwithrehana.com/top-30-html-interview-questions-and-answers-2/" target="_blank">
+        <img src="https://www.google.com/s2/favicons?sz=64&domain=designwithrehana.com" alt="Design with Rehana Icon">
+        Top 30 HTML Interview Questions and Answers
+       </a>
+
+        <br>
+       
+
+       <a href="https://www.codeconvert.ai/free-code-generator" target="_blank">
+        <img src="https://www.google.com/s2/favicons?sz=64&domain=codeconvert.ai" alt="CodeConvert AI Icon">
+       Code Convertor - Example - C++ to Java
+       </a>
+
+     </div>
+
+
+     <h2>Python Resources</h2>
+     <div>
+         <a href="https://www.learnpython.org/" target="_blank">
+             <img src="https://www.google.com/s2/favicons?sz=64&domain=learnpython.org" alt="Learn Python Icon">
+             Learn Python
+         </a>
+     
+         <a href="https://python.swaroopch.com/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Swaroop Icon" style="width: 32px; height: 32px;">
+            Python Swaroop
+        </a>        
+     
+         <a href="https://diveintopython3.net/" target="_blank">
+             <img src="https://www.google.com/s2/favicons?sz=64&domain=diveintopython3.net" alt="Dive Into Python 3 Icon">
+             Dive Into Python 3
+         </a>
+     
+         <a href="https://pythonspot.com/" target="_blank">
+             <img src="https://www.google.com/s2/favicons?sz=64&domain=pythonspot.com" alt="PythonSpot Icon">
+             PythonSpot
+         </a>
+     
+         <a href="https://www.fullstackpython.com/" target="_blank">
+             <img src="https://www.google.com/s2/favicons?sz=64&domain=fullstackpython.com" alt="Full Stack Python Icon">
+             Full Stack Python
+         </a>
+     </div>
+     
+
+     <h2>Linktree</h2>
+     <div>
+         <a href="https://linktr.ee/webdevabhinav" target="_blank">
+             <img src="https://www.google.com/s2/favicons?sz=64&domain=linktr.ee" alt="Linktree Icon" style="vertical-align: middle; margin-right: 8px;">
+             Abhinav Singh | Full Stack Dev | Instagram | Linktree
+         </a>
+     </div>
+     
+
+
+     <!-- Coding YouTube Channels -->
+<h2>Coding YouTube Channels</h2>
+<div>
+
+    <a href="https://www.youtube.com/@CodeWithHarry" target="_blank">
+        <img src="https://www.google.com/s2/favicons?sz=64&domain=youtube.com" alt="CodeWithHarry Icon">
+        CodeWithHarry
+    </a>
+    <br>
+    <a href="https://www.youtube.com/@freecodecamp" target="_blank">
+        <img src="https://www.google.com/s2/favicons?sz=64&domain=freecodecamp.org" alt="freeCodeCamp Icon">
+        freeCodeCamp.org
+    </a>
+  
+    <a href="https://www.youtube.com/@TraversyMedia" target="_blank">
+        <img src="https://www.google.com/s2/favicons?sz=64&domain=youtube.com" alt="Traversy Media Icon">
+        Traversy Media
+    </a>
+
+    <a href="https://www.youtube.com/@ProgrammingwithMosh" target="_blank">
+        <img src="https://www.google.com/s2/favicons?sz=64&domain=youtube.com" alt="Programming with Mosh Icon">
+        Programming with Mosh
+    </a>
+
+    <a href="https://www.youtube.com/@Academind" target="_blank">
+        <img src="https://www.google.com/s2/favicons?sz=64&domain=youtube.com" alt="Academind Icon">
+        Academind
+    </a>
+   
+</div>
+        <!-- Coding Instagram Channels -->
+<h2>Coding Instagram Channels</h2>
+<div>
+
+    <a href="https://www.instagram.com/codewithharry/" target="_blank">
+        <img src="https://www.google.com/s2/favicons?sz=64&domain=instagram.com" alt="Code With Harry Icon">
+        Code With Harry
+    </a>
+    <br>
+    <a href="https://www.instagram.com/codewithimraan/profilecard/?igsh=Mzh1cHgwdTUxcWRj" target="_blank">
+        <img src="https://www.google.com/s2/favicons?sz=64&domain=instagram.com" alt="Code With Imraan Icon">
+        Code With Imraan
+    </a>
+
+    <a href="https://www.instagram.com/codzlearner?igsh=bG56NGppZGRvaWxw" target="_blank">
+        <img src="https://www.google.com/s2/favicons?sz=64&domain=instagram.com" alt="Codz Learner Icon">
+        Codz Learner
+    </a>
+
+    <a href="https://www.instagram.com/freecodecamp/" target="_blank">
+        <img src="https://www.google.com/s2/favicons?sz=64&domain=instagram.com" alt="freeCodeCamp Icon">
+        freeCodeCamp
+    </a>
+    
+    <a href="https://www.instagram.com/python.hub/" target="_blank">
+        <img src="https://www.google.com/s2/favicons?sz=64&domain=instagram.com" alt="Python Hub Icon">
+        Python Hub
+    </a>
+    
+</div>
+
+    <!-- Coding Telegram Channels -->
+<h2>Coding Telegram Channels</h2>
+<div>
+    
+    <a href="https://t.me/pythonhub" target="_blank">
+        <img src="https://www.google.com/s2/favicons?sz=64&domain=t.me" alt="Python Hub Icon">
+        Python Hub
+    </a>
+    
+</div>
+
+    
+  
+
+    <!-- Google Services -->
+    <h2>Google Services</h2>
+    <div>
+        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=mail.google.com" alt="Gmail Icon">
+            Gmail
+        </a>
+
+        <a href="https://drive.google.com/drive/my-drive" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=drive.google.com" alt="Google Drive Icon">
+            Google Drive
+        </a>
+        <a href="https://photos.google.com/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=photos.google.com" alt="Google Photos Icon">
+            Google Photos
+        </a>
+        
+        <a href="https://keep.google.com/u/0/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=keep.google.com" alt="Google Keep Icon">
+            Google Keep
+        </a>
+        <a href="https://docs.google.com/document/d/17MXDbUcnpYAu9IqcSvtORcxOleBMVKGR2zTgi0N-Ot4/edit?tab=t.0" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=docs.google.com" alt="Google Docs Icon">
+            Google Docs (Document)
+        </a>
+    </div>
+
+
+    <h2>AI Tools</h2>
+    <div>
+
+        <a href="https://poe.com/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=poe.com" alt="Poe Icon">
+            Poe --- AI Chat Platform
+        </a>
+        
+        <a href="https://chat.openai.com/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=openai.com" alt="ChatGPT Icon">
+            ChatGPT
+        </a>
+    
+        <a href="https://copilot.microsoft.com/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=microsoft.com" alt="Microsoft Copilot Icon">
+            Microsoft Copilot
+        </a>
+    
+        <a href="https://www.tinywow.com/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=tinywow.com" alt="TinyWow Icon">
+            TinyWow
+        </a>
+    
+        <a href="https://www.futurepedia.io/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=futurepedia.io" alt="Futurepedia Icon">
+            Futurepedia
+        </a>
+    
+        <a href="https://aitools.fyi/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=aitools.fyi" alt="AI Tools Icon">
+            AI Tools
+        </a>
+    
+        <a href="https://www.producthunt.com/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=producthunt.com" alt="Product Hunt Icon">
+            Product Hunt
+        </a>
+    
+        <a href="https://theailist.com/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=theailist.com" alt="The AI List Icon">
+            The AI List
+        </a>
+    
+        <a href="https://topaitools.com/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=topaitools.com" alt="Top AI Tools Icon">
+            Top AI Tools
+        </a>
+        </div>
+         
+        <!-- Amazing Websites -->
+         <h2>Amazing Websites</h2>
+        <div>
+         <a href="https://virtualvacation.us/" target="_blank">
+         <img src="https://www.google.com/s2/favicons?sz=64&domain=virtualvacation.us" alt="Virtual Vacation Icon">
+          Virtual Vacation --- Explore Cities and Destinations
+         </a>
+        </div>
+    
+
+         <!-- Tools -->
+         <h2>Tools</h2>
+         <div>
+        
+         <a href="https://chromewebstore.google.com/?pli=1" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=chromewebstore.google.com" alt="Chrome Web Store Icon">
+            Chrome Web Store
+         </a>
+        
+         </div>
+
+      <!-- PDF Tools -->
+      <h2>PDF Tools</h2>
+      <div>
+    <a href="https://www.sejda.com/pdf-editor" target="_blank">
+    <img src="https://www.google.com/s2/favicons?sz=64&domain=sejda.com" alt="Sejda PDF Editor Icon">
+     Sejda PDF Editor --- Pdf All Modification
+          </a>
+      </div>
+
+
+       <!-- Music Services -->
+    <h2>Music Services</h2>
+    <div>
+
+        <a href="https://music.youtube.com/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=music.youtube.com" alt="YouTube Music Icon">
+            YouTube Music
+        </a>
+
+        <a href="https://www.spotify.com/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=spotify.com" alt="Spotify Icon">
+            Spotify
+        </a>
+        
+        <a href="https://www.apple.com/apple-music/" target="_blank">
+            <img src="https://www.google.com/s2/favicons?sz=64&domain=apple.com" alt="Apple Music Icon">
+            Apple Music
+        </a>
+
+    </div>
+
+      <!-- Social Media -->
+      <h2>Social Media</h2>
+      <div>
+          <a href="https://web.whatsapp.com/" target="_blank">
+              <img src="https://www.google.com/s2/favicons?sz=64&domain=whatsapp.com" alt="WhatsApp Icon">
+              WhatsApp
+          </a>
+          <a href="https://telegram.org/" target="_blank">
+              <img src="https://www.google.com/s2/favicons?sz=64&domain=telegram.org" alt="Telegram Icon">
+              Telegram
+          </a>
+          <a href="https://www.facebook.com/" target="_blank">
+              <img src="https://www.google.com/s2/favicons?sz=64&domain=facebook.com" alt="Facebook Icon">
+              Facebook
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+              <img src="https://www.google.com/s2/favicons?sz=64&domain=instagram.com" alt="Instagram Icon">
+              Instagram
+          </a>
+          <a href="https://www.threads.net/" target="_blank">
+              <img src="https://www.google.com/s2/favicons?sz=64&domain=threads.net" alt="Threads Icon">
+              Threads
+          </a>
+          <a href="https://twitter.com/" target="_blank">
+              <img src="https://www.google.com/s2/favicons?sz=64&domain=twitter.com" alt="Twitter Icon">
+              Twitter
+          </a>
+      
+          <a href="https://www.pinterest.com/" target="_blank">
+              <img src="https://www.google.com/s2/favicons?sz=64&domain=pinterest.com" alt="Pinterest Icon">
+              Pinterest
+          </a>
+          <a href="https://discord.com/" target="_blank">
+              <img src="https://www.google.com/s2/favicons?sz=64&domain=discord.com" alt="Discord Icon">
+              Discord
+          </a>
+          <br>
+          <a href="https://www.linkedin.com/" target="_blank">
+              <img src="https://www.google.com/s2/favicons?sz=64&domain=linkedin.com" alt="LinkedIn Icon">
+              LinkedIn
+          </a>
+          <a href="https://www.reddit.com/" target="_blank">
+              <img src="https://www.google.com/s2/favicons?sz=64&domain=reddit.com" alt="Reddit Icon">
+              Reddit
+          </a>
+          <a href="https://www.wechat.com/" target="_blank">
+              <img src="https://www.google.com/s2/favicons?sz=64&domain=wechat.com" alt="WeChat Icon">
+              WeChat
+          </a>
+          <a href="https://www.quora.com/" target="_blank">
+              <img src="https://www.google.com/s2/favicons?sz=64&domain=quora.com" alt="Quora Icon">
+              Quora
+      </div>
+  
+     
+  
+
+</body>
+</html>
