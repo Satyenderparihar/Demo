@@ -1,1 +1,0 @@
-# 1.2 Investing Vs Trading
