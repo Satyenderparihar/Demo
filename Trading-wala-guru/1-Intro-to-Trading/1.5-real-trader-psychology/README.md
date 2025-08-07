@@ -1,1 +1,0 @@
-# 1.5 Real Trader Psychology
